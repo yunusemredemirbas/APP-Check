@@ -1,5 +1,3 @@
-# kullanıcıadı = yunusemredbas
-# pass = rBjVFptpc7HqNCXP
 import os
 from pymongo import MongoClient
 from getpass import getpass
@@ -10,7 +8,6 @@ class DBOperations:
     db_username = os.environ.get("MONGODBUSERNAME")  # input("DB Username: ")
     db_password = os.environ.get("MONGODBPASS")  # getpass("DB Password: ")
     URL = f"mongodb+srv://{db_username}:{db_password}@cluster0.mfdun.mongodb.net/APP_INFOS?retryWrites=true&w=majority"
-    #URL = f"mongodb+srv://yunusemredbas:rBjVFptpc7HqNCXP@cluster0.mfdun.mongodb.net/APP_INFOS?retryWrites=true&w=majority"
 
 
     try:
