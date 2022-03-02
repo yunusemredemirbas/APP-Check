@@ -1,4 +1,3 @@
-# Yüklü değilse önce Flask package yükleyin
 import threading
 import random
 import time
